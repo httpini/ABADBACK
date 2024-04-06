@@ -1,6 +1,6 @@
 let path = require('path');
 require('dotenv').config({
-    path: path.resolve(__dirname, `../../../.env`),
+    path: path.resolve(__dirname, `../../.env`),
 })
 let PORT = process.env.PORT || 8020
 
