@@ -1,1 +1,0 @@
-Dashboard en react y next.js para desplegar informacíon del torneo al público general
