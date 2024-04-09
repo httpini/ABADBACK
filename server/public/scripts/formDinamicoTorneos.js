@@ -1,8 +1,13 @@
+let path = require('path');
+require('dotenv').config({
+    path: path.resolve(__dirname, `../../.env`),
+})
+let URL = process.env.URL 
 let todasCategorias
 let todasSubcategorias
 let todosEquipos
 
-const URL = "http://localhost:8020"
+
 //definimos las variables donde vamos a traer la lista completa de datos desde el modelo
        
     async function cambia_categoria(){
