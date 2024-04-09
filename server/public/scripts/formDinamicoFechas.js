@@ -1,11 +1,6 @@
-let path = require('path');
-require('dotenv').config({
-    path: path.resolve(__dirname, `../../.env`),
-})
-let URL = process.env.URL
 let todosEquipos
 let todasTernas 
-
+const URL = "http://localhost:8020"
 //FALTA AGREGAR LA FUNCION DEL SELECT DE LAS TERNAS NOMAS
 async function agregar_partido(){
     let equiposSeleccionados=[]
