@@ -2,7 +2,7 @@ let todasCategorias
 let todasSubcategorias
 let todosEquipos
 
-const URL = "http://localhost:8020"
+const URL = "http://administracion.abadfutbol.com.ar"
 //definimos las variables donde vamos a traer la lista completa de datos desde el modelo
        
     async function cambia_categoria(){
