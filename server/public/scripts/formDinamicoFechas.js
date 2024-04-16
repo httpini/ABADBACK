@@ -1,6 +1,6 @@
 let todosEquipos
 let todasTernas 
-const URL = "http://localhost:8020"
+const URL = "http://administracion.abadfutbol.com.ar"
 //FALTA AGREGAR LA FUNCION DEL SELECT DE LAS TERNAS NOMAS
 async function agregar_partido(){
     let equiposSeleccionados=[]
