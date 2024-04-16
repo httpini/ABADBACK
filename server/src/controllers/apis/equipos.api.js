@@ -24,13 +24,13 @@ module.exports={
                     name_url:club.name_url,
                     colores:[]
                 }
-                if(equipos[0].color_1 != null && equipos[0].color_1 != ""){
+                if(equipos[0]?.color_1){
                     data.colores.push(equipos[0].color_1)
                 }
-                if(equipos[0].color_2 != null && equipos[0].color_2 != ""){
+                if(equipos[0]?.color_2){
                     data.colores.push(equipos[0].color_2)
                 }
-                if(equipos[0].color_3 != null && equipos[0].color_3 != ""){
+                if(equipos[0]?.color_3){
                     data.colores.push(equipos[0].color_3)
                 }
                 return  data
